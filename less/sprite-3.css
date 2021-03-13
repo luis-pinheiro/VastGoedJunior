@@ -1,0 +1,53 @@
+.sprite-lijn {
+  background-image: url(../images/lijns.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+.sprite-Lijn1 {
+  width: 116px;
+  height: 2px;
+  background-position: -5px -5px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+.sprite-Lijn2 {
+  width: 116px;
+  height: 2px;
+  background-position: -5px -17px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+.sprite-Lijn3 {
+  width: 116px;
+  height: 2px;
+  background-position: -5px -29px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+.sprite-Lijn4 {
+  width: 116px;
+  height: 2px;
+  background-position: -5px -41px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+.sprite-Lijn5 {
+  width: 116px;
+  height: 2px;
+  background-position: -5px -53px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}
+.sprite-Lijn6 {
+  width: 116px;
+  height: 2px;
+  background-position: -5px -65px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+}

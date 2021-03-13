@@ -1,0 +1,709 @@
+ @import "bootstrap.less";
+@import "sprites2.less";
+@import "elements.less";
+@import "sprite6.less";
+// @import "main-1200.less";
+// @import "main-992-1199.less";
+// @import "main-768-991.less";
+// @import "main-481-767.less";
+// @import "main-480.less";
+// @import "main-710.less";
+@import "sprites4.less";
+@import "sprite3.less";
+@import "sprite5.less";
+
+
+ /* ================================== Menu
+   ============================================ */
+
+   #home > div.navbar.navbar-fixed-top{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 1);
+   }
+.navbar > .container .navbar-brand {
+margin-left: -15px;
+margin-top: 5px;
+}
+   .haha-shrink{
+    margin-top: -25px !important;
+    height: 78px;
+    padding-bottom: 5px;
+   .navbar-header{
+    margin-top: 5px;
+        .scale(0.5);
+      }
+   }
+   ul.nav.navbar-nav.affix {
+    margin-left: 37%;
+    }
+   #home > div.navbar.navbar-fixed-top > div > div.collapse.navbar-collapse > ul{
+    padding-top: 20px;
+   }
+body > div.navbar.navbar-fixed-top > div > div.collapse.navbar-collapse > ul > li.active{
+  border-bottom: 4px solid #ed6e2e;
+  // padding-bottom: 10px;
+   background: transparent;
+}
+body > div.navbar.navbar-fixed-top > div > div.collapse.navbar-collapse > ul > li {
+  &:hover{
+    border-bottom: 4px solid #ed6e2e;
+   background: transparent;
+   // padding-bottom: 10px;
+   .transition-duration(0.5s);
+}
+a{
+  font-family: Lato;
+font-size: 20px;
+font-weight: bold;
+color: #bbb;
+
+}
+}
+body > div.navbar.navbar-fixed-top > div > div.collapse.navbar-collapse > ul {
+float: right;
+}
+/* =================================================== jumbotron
+========================================================================*/
+#vastgoedjunior-background{
+  background: url(../images/vgv-header.jpg) no-repeat center center;
+  height: 562px;
+  width: 100%;
+  background-position: 50% 90px;
+background-repeat: no-repeat;
+background-size: cover;
+  background-attachment: fixed;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#vastgoedjunior-background > div > div > div > div{
+  margin-top: 70px;
+}
+#vastgoedjunior-background > div > div > div > h2,
+#vastgoedjunior-background > div > div > h2 {
+font-family: Lato;
+color: #fff;
+font-size: 40px;
+font-weight: 300;
+line-height: inherit;
+}
+#vastgoedjunior-background > div > div > h2:nth-child(3){
+  font-size: 36px;
+  font-family: "Lato";
+  color: rgb( 255, 255, 255 );
+  line-height: 0.667;
+  font-weight: 400;
+}
+#vastgoedjunior-background > div > div > h2 > b{
+  font-size: 40px;
+}
+
+#vastgoedjunior-background > div > div > div{
+  margin-top: 140px;
+}
+/* ========================================= Buttons in jumbotron
+====================================================================*/
+#btn-registreren{
+  float: right;
+  font-family: Lato;
+  font-size: 18px;
+  color: #fff;
+  width: 180px;
+  height: 44px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  &:hover{
+    background: #fff;
+    border: 2px solid #fff;
+    color: #127C8B;
+  }
+}
+#btn-lees-meer{
+  font-family: Lato;
+  font-size: 18px;
+  color: #fff;
+  width: 180px;
+  height: 44px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ed6e2e;
+  border: 2px solid #DD5513;
+  &:hover{
+    background: #E15613;
+  }
+}
+/* ================================================= search
+=============================================================*/
+#search{
+  margin-top: 26px;
+}
+#search > div > div.col-lg-6 > div{
+  width: 492px; height: 42px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+button.btn.sprite.sprite-glyphicons_027_search {
+background: transparent;
+}
+input.form-control {
+height: 42px;
+margin-left: 92px;
+}
+#search > div > div > div.col-lg-6.col-md-6.col-sm-6.col-xs-6 > div > span > button,
+#search > div > div.col-lg-6 > div > span > button{
+  width: 57px;
+  margin-left: 37px;
+  height: 42px;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  background-color: #2a4b5f;
+  &:hover{
+    background-color: #1D3849;
+    boder: 1px solid #000;
+  }
+}
+/* =================================================== Waarom Vastgoedjunior
+============================================================================= */
+.waarom-vgv{
+  h1{
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: bold;
+    color: #b7271e;
+  }
+  p{
+    font-family: Lato;
+    font-size: 14px;
+    color: #494e51;
+  }
+}
+#waarom-vastgoed{
+  border-top: 2px solid #D7D7D7;
+  background: #f6f6f6;
+  margin-top: 26px;
+  padding-top: 26px;
+}
+#waarom-vastgoed > div > div > span{
+  margin-left: auto;
+  margin-right: auto;
+}
+#waarom-vastgoed > div > div > button{
+  float: right;
+}
+#waarom-vastgoed > div > div > div:nth-child(2),
+#waarom-vastgoed > div > div{
+  padding-left: 53px;
+  padding-right: 53px;
+  border-left: 2px solid #D7D7D7;
+  margin-bottom: 27px;
+
+}
+#waarom-vastgoed > div > div > p{
+  margin-top: 23px;
+  font-family: Lato;
+  font-size: 14px;
+  color: #494e51;
+}
+#waarom-vastgoed > div > div > button{
+  margin-top: 47px;
+  width: 109px;
+  height: 32px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-family: Lato;
+  font-size: 15px;
+  color: #fff;
+}
+/* ======================================== Wat is onze formula
+===================================================================== */
+// #home > div:nth-child(5){
+//   background: #0092a6;
+// }
+#wat-is-onze-formule > div > div > div.col-md-9 > div > h1{
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 46px;
+}
+#wat-is-onze-formule > div > div > div.col-md-9 > div > p{
+  font-family: Lato;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 53px;
+}
+#wat-is-onze-formule > div > div > div.col-md-9{
+  background: #0092a6;
+  height:400px;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+#onze-f{
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 256px;
+}
+/* ============================================= Hoe werkt Vastgoedjunior
+=========================================================================*/
+
+#werkt{
+  font-family: Lato !important;
+  font-size: 36px !important;
+  font-weight: bold !important;
+  color: #2a4b5f !important;
+
+}
+#hoe-werkt-vastgoedjunior > div > div > div.col-md-9 > div > p,
+#hoe-werkt-vastgoedjunior > p{
+  font-family: Lato;
+  font-size: 16px;
+  color: #2a4b5f;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#coach > img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =================================== laatste nieuws
+===========================================================*/
+#home > div:nth-child(5) > div > div.col-md-3 > h3{
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2a4b5f;
+}
+#home > div:nth-child(5) > div > div.col-md-3{
+ /* padding-left: 20px;
+  padding-right: 10px;*/
+}
+#home > div:nth-child(5) > div > div.col-md-3 > div{
+  background: #fff;
+
+}
+#nieuws > h3{
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2a4b5f;
+  margin-left: 20px;
+}
+#nieuws{
+  border-top: 2px solid #D6D6D6;
+  border-left: 1px solid #D6D6D6;
+}
+#nieuws > img{
+  margin-top: 10px;
+  margin-left: 22%;
+}
+#nieuws > h4{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+#nieuws > p{
+  font-family: Lato;
+  font-size: 14px;
+   color: #494e51;
+}
+#nieuws > button{
+  float: right;
+  width: 111px;
+  /*height: 28px; */
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* ================================= Download onze flyer
+===========================================================*/
+#download-flyer > div > div.col-md-7.col-sm-7.col-xs-7 > a{
+  color: #fff;
+}
+#download-flyer{
+  background-color: #ed6e2e !important;
+  margin-top: -80px;
+}
+#download-flyer > div > div:nth-child(1) > h2{
+  font-family: Lato;
+  font-size: 30px;
+  color: #fff;
+}
+i.vgv vgv-Arrow {
+margin-top: 15px;
+}
+#download-flyer > div > div:nth-child(1){
+  /*margin-left: 15px;*/
+}
+#download-flyer > div > div:nth-child(2){
+  /*padding-left: 30px;*/
+}
+#download-flyer > div > div.col-md-5 > a{
+  margin-left: auto;
+  margin-right: auto;
+}
+#download-flyer > div > div.col-md-5.col-xs-5 > a > i {
+margin-top: 12px;
+}
+/* ========================================== Vraag en Aanbod
+==================================================================*/
+#vraag > div > h6,
+#vraag > h6{
+  font-family: Lato;
+   font-size: 18px;
+   font-weight: bold;
+   color: #2a4b5f;
+}
+#project{
+  background: url(../images/V&A2.png) no-repeat;
+  width: 264px;
+  height: 254px;
+  padding: 20px;
+}
+#project > div > h5{
+  font-family: Lato;
+  font-size: 18px;
+  color: #2a4b5f;
+padding-top: 90px;
+padding-bottom: 10px;
+}
+
+#project > div > p{
+  font-family: Lato;
+  font-size: 14px;
+  color: #a4a4a4;
+
+}
+#project > p{
+  font-family: Lato;
+  font-size: 14px;
+  color: #494e51;
+  margin-top: 20px;
+  width: inherit;
+  margin-left: -20px;
+}
+#project > button{
+  float: right;
+  width: 111px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* ========================================= Junior
+==========================================================*/
+div#junior {
+width: 264px;
+h3{
+  font-family: Lato;
+  color: #2a4b5f;
+}
+h6{
+ font-family: Lato;
+   font-size: 18px;
+   font-weight: bold;
+   color: #2a4b5f;
+}
+p{
+  font-family: Lato;
+  font-size: 14px;
+  color: #494e51;
+  width: inherit;
+}
+button{
+  float: right;
+  width: 111px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+}
+
+/* ========================================== wie zijn wij
+==============================================================*/
+
+#wie-zijn-wij{
+  margin-top: 60px;
+  border-top: 2px solid #D7D7D7;
+  h1{
+    font-family: Lato !important;
+font-size: 36px !important;
+font-weight: bold !important;
+color: #2a4b5f !important;
+  }
+  .contact-info{
+    font-family: Lato;
+font-size: 14px;
+color: #494e51;
+font-style: italic;
+.mail-info,
+.tel-info,
+.website-info{
+  a{
+    color: #2a4b5f !important;
+  }
+  color: #2a4b5f !important;
+  }
+}
+}
+#wie-zijn-wij > div:nth-child(3){
+  margin-top: 40px;
+}
+#wie-zijn-wij > div:nth-child(4){
+  margin-top: 40px;
+}
+#wie-zijn-wij > div > p,
+#wie-zijn-wij > p{
+font-family: Lato;
+font-size: 18px;
+color: #494e51;
+padding-right: 20px; 
+padding-left: 20px
+}
+#wie-zijn-wij .ih-item.square.effect4 .info > p > a{
+  color: #1593A7;
+}
+
+.ih-item.square.effect4 .info p::-webkit-scrollbar-track{
+border:1px gray solid;
+border-radius:10px;
+-webkit-box-shadow:0 0 6px gray inset;
+}
+.profit:before{
+  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item.square.effect4 {
+overflow: hidden;
+position: relative;
+border-radius: 5px 5px 0 0;
+margin-left: auto;
+margin-right: auto;
+}
+#wie-zijn-wij > div > div > h5{
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  color: #32373a;
+}
+#wie-zijn-wij > div > div > p{
+font-family: Lato;
+font-size: 15px;
+color: #494e51;
+}
+#wie-zijn-wij > div > div > div.social-icons{
+  margin-left: 43%;
+}
+.soci{
+  float: left;
+  margin-right: 5px;
+}
+/* ======================================= Orange
+==================================================*/
+#orange{
+  background: #ed6e2e;
+  margin-top: 80px;
+}
+#limited > div:nth-child(1) > i.orange.orange-1,
+#limited > div:nth-child(2) > i.orange.orange-2,
+#limited > div:nth-child(3) > i.orange.orange-4,
+#limited > div:nth-child(4) > i.orange.orange-3,
+#orange > div.row > div > i.orange.orange-1,
+#orange > div.row > div > i.orange.orange-2,
+#orange > div.row > div > i.orange.orange-3,
+#orange > div.row > div > i.orange.orange-4{
+  margin-right: auto;
+  margin-left: auto;
+margin-top: 40px;
+}
+#limited > div > i.orange.orange-5,
+#orange > div.row > div > i.orange.orange-5{
+   margin-right: auto;
+  margin-left: auto;
+}
+ #limited {
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 45px;
+p{
+  font-family: Lato;
+  font-size: 36px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+h6{
+  font-family: Lato;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 6px;
+  margin-bottom: 40px;
+}
+}
+/* ==================================== Referenties
+=======================================================*/
+#referentie{
+  max-width: 1200px;
+  height: 270px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#referenties > h2{
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: bold;
+  color: #2a4b5f;
+  margin-top: 45px;
+}
+.ih-item.circle-s .img-s {
+  position: relative;
+  width: 182px;
+  height: 182px;
+  border-radius: 50%;
+  margin-left: auto;
+
+}
+.img-s{
+  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item.circle-s .img-s:before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.caption-s{
+font-family: Bellota;
+font-size: 32px;
+color: #888;
+margin-left: -31%;
+width: 731px;
+}
+#referentie > ol > li:nth-child(1),
+#referentie > ol > li{
+  color: #ed6e2e !important;
+}
+.carousel-indicators {
+position: absolute;
+bottom: 10px;
+top: 100%;
+left: 50%;
+z-index: 15;
+width: 60%;
+margin-left: -30%;
+padding-left: 0;
+list-style: none;
+text-align: center;
+}
+.shape-s{
+  background-image: url(../images/Referenties/shapes/shape-s.png);
+  background-repeat: no-repeat;
+    display: block;
+     width: 57px;
+    height: 1px;
+}
+/* ============================================ Registreren
+==============================================================*/
+div#registreren {
+margin-top: 50px;
+
+h2{
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: bold;
+  color: #2a4b5f;
+}
+h6{
+  font-family: Lato;
+  font-size: 18px;
+  color: #a8a8a8;
+}
+#regist-st-bd{
+  border-top: 2px solid #ebebeb;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background-color: #ececec;
+padding: 25px 25px;
+}
+input.form-control{
+  margin-left: 0px !important;
+  border: 1px solid rgba(204, 204, 204, 0.71);
+}
+}
+.form-control::-placeholder,
+.form-control:-placeholder,
+.form-control::-input-placeholder,
+.form-control::-moz-placeholder,
+.form-control::-webkit-input-placeholder {
+color: #48afbd !important;
+}
+#student > form > fieldset > div:nth-child(24){
+  margin-left: auto;
+  margin-right: auto;
+}
+#student > form > fieldset > div:nth-child(24) > button{
+  width: 202px;
+  height: 62px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #48afbd;
+  border-left: 2px solid #48afbd;
+  border-right: 2px solid #48afbd;
+  border-top: 2px solid #48afbd;
+  border-bottom: 5px solid #398c97;
+  margin-left: 40%;
+  p{
+    font-family: Lato;
+    font-size: 18px;
+     font-weight: bold;
+     color: #f6f6f6;
+  }
+  &:hover{
+    background-color: #398c97;
+    border: 1px solid #337D88;
+  }
+}
+/*========================================================== Contact
+======================================================================*/
+#contact > div > h1{
+  font-family: Lato !important;
+font-size: 36px !important;
+font-weight: bold !important;
+color: #2a4b5f !important;
+}
+/* ============================================ Footer
+===========================================================*/
+#footer > div > footer > div:nth-child(3) > a > i{
+  float: right;
+  position:fixed;
+  bottom: 35px;
+  right: 10px;
+}
+
+

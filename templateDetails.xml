@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>vastgoedjunior</name>
+	<version>1.0</version>
+	<creationDate>08/06/2014</creationDate>
+	<author>Luis Pinheiro</author>
+	<authorEmail>profitcreations@live.com</authorEmail>
+	<copyright>Copyright (C) 2014 Vastgoedjunior, Inc. All rights reserved.</copyright>
+	<description>TPL_vastgoedjunior_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>less.js</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>forms</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+		<folder>scripts</folder>
+		<folder>styles</folder>
+	</files>
+	<positions>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>vgj-btn-meer</position>
+		<position>vgj-zoeken</position>
+		<position>vgj-in-1</position>
+		<position>vgj-tw-1</position>
+		<position>vgj-waarom-1</position>
+		<position>vgj-waarom-2</position>
+		<position>vgj-formule</position>
+		<position>vgj-formule-img</position>
+		<position>vgj-nieuws-header</position>
+		<position>vgj-nieuws-1</position>
+		<position>vgj-nieuws-2</position>
+		<position>vgj-nieuws-header-modal</position>
+		<position>vgj-nieuws-mod-1</position>
+		<position>vgj-nieuws-mod-2</position>
+		<position>vgj-hoe</position>
+		<position>vgj-wzw</position>
+		<position>vgj-oranje</position>
+		<position>vgj-ref</position>
+		<position>vgj-reg</position>
+		<position>vgj-contact</position>
+		<position>vgj-cont-modal</position>
+		<position>vgj-login-mod</position>
+		<position>vgj-footer</position>
+	</positions>
+	<languages folder="language">
+		<language tag="nl-NL">nl-NL/nl-NL.tpl_vastgoedjunior.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.tpl_vastgoedjunior.sys.ini</language>
+	</languages>
+</extension>

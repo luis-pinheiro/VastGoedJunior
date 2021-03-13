@@ -1,0 +1,143 @@
+.sprite {
+    background-image: url(../images/sprites2.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Arrow_Down {
+    width: 100px;
+    height: 103px;
+    background-position: -5px -5px;
+}
+
+.sprite-Brug {
+    width: 128px;
+    height: 50px;
+    background-position: -115px -5px;
+}
+
+.sprite-Ellipse-18 {
+    width: 182px;
+    height: 182px;
+    background-position: -253px -5px;
+}
+
+.sprite-Group-27 {
+    width: 123px;
+    height: 124px;
+    background-position: -445px -5px;
+}
+
+.sprite-Group-28 {
+    width: 46px;
+    height: 45px;
+    background-position: -5px -139px;
+}
+
+.sprite-Linkedin2 {
+    width: 46px;
+    height: 45px;
+    background-position: -61px -139px;
+}
+
+.sprite-Plus {
+    width: 21px;
+    height: 22px;
+    background-position: -117px -139px;
+}
+
+.sprite-Shape-8 {
+    width: 116px;
+    height: 2px;
+    background-position: -445px -139px;
+}
+
+.sprite-Tube_test {
+    width: 47px;
+    height: 50px;
+    background-position: -148px -139px;
+}
+
+.sprite-Twitter-2 {
+    width: 46px;
+    height: 45px;
+    background-position: -445px -151px;
+}
+
+.sprite-Untitled {
+    width: 434px;
+    height: 259px;
+    background-position: -5px -206px;
+}
+
+.sprite-V_A2 {
+    width: 263px;
+    height: 254px;
+    background-position: -578px -5px;
+}
+
+.sprite-Vector-Smart-Object {
+    width: 285px;
+    height: 88px;
+    background-position: -449px -269px;
+}
+
+.sprite-appbar-googleplus {
+    width: 11px;
+    height: 10px;
+    background-position: -744px -269px;
+}
+
+.sprite-appbar-social-facebook {
+    width: 5px;
+    height: 11px;
+    background-position: -765px -269px;
+}
+
+.sprite-appbar-social-linkedin {
+    width: 10px;
+    height: 10px;
+    background-position: -780px -269px;
+}
+
+.sprite-appbar-twitter-bird {
+    width: 13px;
+    height: 10px;
+    background-position: -800px -269px;
+}
+
+.sprite-connecten {
+    width: 75px;
+    height: 75px;
+    background-position: -744px -290px;
+}
+
+.sprite-fb {
+    width: 46px;
+    height: 45px;
+    background-position: -449px -375px;
+}
+
+.sprite-glyphicons_027_search {
+    width: 28px;
+    height: 28px;
+    background-position: -505px -375px;
+}
+
+.sprite-go-up {
+    width: 46px;
+    height: 45px;
+    background-position: -543px -375px;
+}
+
+.sprite-kwaliteit {
+    width: 75px;
+    height: 75px;
+    background-position: -599px -375px;
+}
+
+.sprite-wonen {
+    width: 75px;
+    height: 75px;
+    background-position: -684px -375px;
+}
